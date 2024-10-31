@@ -8,8 +8,9 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo123.Home">
    <children>
-      <TextField fx:id="textFxid" layoutX="84.0" layoutY="70.0" promptText="Enter text" />
+      <TextField fx:id="textFxid" layoutX="84.0" layoutY="32.0" promptText="Person Name" />
       <TextArea fx:id="textAreaFxid" layoutX="84.0" layoutY="130.0" prefHeight="200.0" prefWidth="200.0" />
       <Button layoutX="300.0" layoutY="70.0" mnemonicParsing="false" onAction="#showButtonOnAction" prefHeight="26.0" prefWidth="79.0" text="Shoo" />
+      <TextField fx:id="personFxid" layoutX="84.0" layoutY="83.0" promptText="Person Id" />
    </children>
 </AnchorPane>

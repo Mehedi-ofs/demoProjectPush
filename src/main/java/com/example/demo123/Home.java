@@ -9,14 +9,20 @@ public class Home
     private TextArea textAreaFxid;
     @javafx.fxml.FXML
     private TextField textFxid;
+    @javafx.fxml.FXML
+    private TextField personFxid;
 
+
+    //declare //initialization
+    Person mehedi;
     @javafx.fxml.FXML
     public void initialize() {
-    }
 
+}
     @javafx.fxml.FXML
     public void showButtonOnAction(ActionEvent actionEvent) {
-        String s=textFxid.getText();
-        textAreaFxid.setText(s);
+
+        mehedi=new Person(textFxid.getText(),Integer.parseInt(personFxid.getText()));
+        textAreaFxid.setText(mehedi.toString());
     }
 }
